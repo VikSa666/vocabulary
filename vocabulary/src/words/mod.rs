@@ -82,13 +82,17 @@ mod test {
 
     #[test]
     fn test_register_word() {
-        let set = WordSet::new("transports");
+        let set = WordSet::new("test");
         let expected = WordSet {
-            name: String::from("transports"),
+            name: String::from("test"),
             words: vec![Word {
-                word: String::from("машина"),
-                cathegory: String::from("transports"),
-                translations: vec![String::from("coche"), String::from("auto")],
+                word: String::from("test"),
+                cathegory: String::from("test"),
+                translations: vec![
+                    String::from("test1"),
+                    String::from("test2"),
+                    String::from("test3"),
+                ],
             }],
         };
         pretty_assertions::assert_eq!(set, expected)
