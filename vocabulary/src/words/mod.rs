@@ -52,7 +52,7 @@ impl WordSet {
     }
 
     pub fn new(name: &str) -> Self {
-        let path_to_yaml = format!("resources/{}.yaml", name);
+        let path_to_yaml = format!("../../vocabulary/resources/{}.yaml", name);
         let source = std::fs::read_to_string(path_to_yaml).unwrap();
         let yamls = yaml_rust::YamlLoader::load_from_str(source.as_str()).unwrap();
         let mut set = Self {

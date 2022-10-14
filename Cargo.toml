@@ -1,2 +1,6 @@
 [workspace]
 members = ["vocabulary"]
+
+exclude = [
+    "demos/",
+]
