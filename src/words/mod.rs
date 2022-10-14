@@ -1,8 +1,8 @@
 #[derive(Debug, PartialEq)]
 pub struct Word {
-    word: String,
-    cathegory: String,
-    translations: Vec<String>,
+    pub word: String,
+    pub cathegory: String,
+    pub translations: Vec<String>,
 }
 
 impl Word {
@@ -41,6 +41,10 @@ impl WordSet {
             .iter()
             .find(|w| w.word == word)
             .ok_or(Error::NotImplemented)
+    }
+
+    pub fn get_word_refs(&self) -> Vec<&Word> {
+        self.words.iter().collect()
     }
 
     pub fn get_name(&self) -> String {
