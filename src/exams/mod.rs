@@ -6,22 +6,29 @@ use rand::{self, seq::SliceRandom, thread_rng};
 pub struct ExamOptions {} // Todo
 
 impl ExamOptions {
-    fn options_are_valid(&self) -> bool {
+    fn _options_are_valid(&self) -> bool {
         true // todo
     }
 }
 
-pub fn start_exam(options: ExamOptions) {
+pub fn start_exam(_options: ExamOptions) {
     let set = WordSet::new("transports");
     let mut words = set.get_word_refs();
     words.shuffle(&mut thread_rng());
-    let mut s = String::new();
+    let mut results = ExamResult::new();
     for word in words.iter() {
         match ask_word_by_terminal(word) {
-            AskWordResult::Correct => println!("Correct!!"),
-            AskWordResult::Wrong => println!("That is wrong"),
+            AskWordResult::Correct => {
+                results.add_one_right();
+                println!("Correct!!")
+            }
+            AskWordResult::Wrong => {
+                results.add_one_wrong();
+                println!("That is wrong")
+            }
         }
     }
+    println!("{}", results.see_results())
 }
 
 fn ask_word_by_terminal(word: &Word) -> AskWordResult {
@@ -55,10 +62,37 @@ impl AskWordResult {
     }
 }
 
+pub struct ExamResult {
+    pub right: usize,
+    pub wrong: usize,
+}
+
+impl ExamResult {
+    pub fn new() -> Self {
+        Self { right: 0, wrong: 0 }
+    }
+    pub fn add_one_right(&mut self) {
+        self.right += 1
+    }
+
+    pub fn add_one_wrong(&mut self) {
+        self.wrong += 1
+    }
+
+    pub fn total_questions(&self) -> usize {
+        self.right + self.wrong
+    }
+
+    pub fn calculate_mean(&self) -> f32 {
+        (self.right as f32) / (self.total_questions() as f32)
+    }
+    pub fn see_results(&self) -> String {
+        format!("****Exam results****\nTotal answers: {};\nRight answers: {};\nWrong answers: {};\nFinal mark: {}%", self.total_questions(), self.right, self.wrong, self.calculate_mean()*100.0)
+    }
+}
+
 #[cfg(test)]
 mod test {
-    use std::io::{stdin, stdout, Write};
-
     use crate::{exams::ExamOptions, start_exam};
 
     #[test]
