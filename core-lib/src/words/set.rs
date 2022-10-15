@@ -31,9 +31,11 @@ impl WordSet {
     }
 
     pub fn new(name: &str) -> Self {
-        let path_to_yaml = format!("vocabulary/resources/{}.yaml", name);
-        let source = std::fs::read_to_string(path_to_yaml).unwrap();
-        let yamls = yaml_rust::YamlLoader::load_from_str(source.as_str()).unwrap();
+        let buf = &std::path::PathBuf::from("./resources");
+        std::fs::create_dir_all(buf).unwrap();
+        let out_dir = &buf.join(format!("resources/{}.yaml", name));
+        let out = std::fs::File::create(out_dir).unwrap();
+        let yamls = yaml_rust::YamlLoader::load_from_str(out_dir.to_str().unwrap()).unwrap();
         let mut set = Self {
             name: name.to_string(),
             words: vec![],

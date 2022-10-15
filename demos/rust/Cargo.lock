@@ -78,7 +78,7 @@ dependencies = [
 [[package]]
 name = "vocabulary"
 version = "0.1.0"
-source = "git+https://github.com/VikSa666/vocabulary.git#9c0309c2e006051d6c3b06dcbbf8134904c4b231"
+source = "git+https://github.com/VikSa666/vocabulary.git#98524846b9be8d440f664d08c893df5c8e15b098"
 dependencies = [
  "rand",
  "yaml-rust",
