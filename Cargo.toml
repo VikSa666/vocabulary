@@ -1,5 +1,5 @@
 [workspace]
-members = ["vocabulary"]
+members = ["core-lib"]
 
 exclude = [
     "demos/",
