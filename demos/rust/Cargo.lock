@@ -71,12 +71,14 @@ dependencies = [
 name = "rust"
 version = "0.1.0"
 dependencies = [
+ "rand",
  "vocabulary",
 ]
 
 [[package]]
 name = "vocabulary"
 version = "0.1.0"
+source = "git+https://github.com/VikSa666/vocabulary#9e5e45bc0acdccc8b7350dda50939e9271ba5b6a"
 dependencies = [
  "rand",
  "yaml-rust",
