@@ -31,7 +31,7 @@ impl WordSet {
     }
 
     pub fn new(name: &str) -> Self {
-        let path_to_yaml = format!("resources/{}.yaml", name);
+        let path_to_yaml = format!("vocabulary/resources/{}.yaml", name);
         let source = std::fs::read_to_string(path_to_yaml).unwrap();
         let yamls = yaml_rust::YamlLoader::load_from_str(source.as_str()).unwrap();
         let mut set = Self {
@@ -55,8 +55,9 @@ impl WordSet {
     }
 
     pub fn write_in_file(&self) -> Result<(), std::io::Error> {
-        let path = format!("resources/{}.yaml", self.name);
-        let out_dir = &std::path::PathBuf::from(path.to_string());
+        let buf = &std::path::PathBuf::from("./resources");
+        std::fs::create_dir_all(buf).unwrap();
+        let out_dir = &buf.join(format!("resources/{}.yaml", self.name));
         let out = std::fs::File::create(out_dir)?;
         write!(
             &out,

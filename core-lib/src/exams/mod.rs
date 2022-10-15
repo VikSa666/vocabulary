@@ -1,6 +1,4 @@
-use std::io::{stdin, stdout, Write};
-
-use crate::words::{Word, WordSet};
+use crate::words;
 pub struct ExamOptions {} // Todo
 
 impl ExamOptions {
@@ -15,7 +13,7 @@ pub enum AskWordResult {
 }
 
 impl AskWordResult {
-    pub fn correct_word(word: &Word, answer: &str) -> Self {
+    pub fn correct_word(word: &words::Word, answer: &str) -> Self {
         if word.translations.contains(&answer.to_string()) {
             Self::Correct
         } else {
