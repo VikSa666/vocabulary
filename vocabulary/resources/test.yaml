@@ -1,2 +1,16 @@
+
+---
 original: test
-translations: [test1, test2, test3]
+translations: [test1, test2]
+
+---
+original: test2
+translations: [this, is, a, test]
+
+---
+original: test3
+translations: [this, is, another, test]
+
+---
+original: test4
+translations: [asdf]
