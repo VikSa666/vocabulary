@@ -1,5 +1,20 @@
+pub mod cathegory;
+pub mod exam;
+
 use crate::words;
-pub struct ExamOptions {} // Todo
+pub struct ExamOptions {
+    pub check_all_answer: bool,
+    pub cathegory: cathegory::QuestionByCathegory,
+} // Todo
+
+impl Default for ExamOptions {
+    fn default() -> Self {
+        Self {
+            check_all_answer: Default::default(),
+            cathegory: cathegory::QuestionByCathegory::All,
+        }
+    }
+}
 
 impl ExamOptions {
     fn _options_are_valid(&self) -> bool {
