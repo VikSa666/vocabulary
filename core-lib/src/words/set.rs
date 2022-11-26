@@ -27,6 +27,28 @@ impl WordSet {
         self.name.to_string()
     }
 
+    pub fn new_from_str(contents: &str, set_name: &str) -> error::Result<Self> {
+        let yamls = yaml_rust::YamlLoader::load_from_str(&contents).unwrap();
+        let mut set = Self {
+            name: set_name.to_string(),
+            words: vec![],
+        };
+        for yaml in yamls {
+            let new_word = word::Word::new(
+                yaml["original"].as_str().unwrap(),
+                set_name,
+                yaml["translations"]
+                    .as_vec()
+                    .unwrap()
+                    .into_iter()
+                    .map(|c| c.as_str().unwrap())
+                    .collect::<Vec<&str>>(),
+            );
+            set.register_word(&new_word)
+        }
+        Ok(set)
+    }
+
     pub fn new_from_file(name: &str) -> error::Result<Self> {
         let file_path = format!("resources/{}.yaml", name);
         let contents = std::fs::read_to_string(file_path).map_err(|err| {
