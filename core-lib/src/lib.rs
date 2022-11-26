@@ -1,5 +1,6 @@
 pub mod error;
 mod exams;
+pub mod session;
 pub mod words;
 
 pub use {

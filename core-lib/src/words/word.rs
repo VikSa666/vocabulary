@@ -1,4 +1,4 @@
-#[derive(Debug, PartialEq)]
+#[derive(Debug, PartialEq, Clone)]
 pub struct Word {
     pub word: String,
     pub cathegory: String,
@@ -16,6 +16,9 @@ impl Word {
                 .collect::<Vec<String>>()
                 .to_owned(),
         }
+    }
+    pub fn name(&self) -> &str {
+        &self.word
     }
 }
 
