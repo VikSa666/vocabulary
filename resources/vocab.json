@@ -1,0 +1,1251 @@
+[
+    {
+        "name": "verbo",
+        "words": [
+            {
+                "russian": "работать",
+                "spanish": [
+                    "trabajar"
+                ]
+            },
+            {
+                "russian": "знать",
+                "spanish": [
+                    "saber"
+                ]
+            },
+            {
+                "russian": "слушать",
+                "spanish": [
+                    "escuchar"
+                ]
+            },
+            {
+                "russian": "понимать",
+                "spanish": [
+                    "entender"
+                ]
+            },
+            {
+                "russian": "делать",
+                "spanish": [
+                    "hacer"
+                ]
+            },
+            {
+                "russian": "отдыхать",
+                "spanish": [
+                    "descansar"
+                ]
+            },
+            {
+                "russian": "играть",
+                "spanish": [
+                    "jugar"
+                ]
+            },
+            {
+                "russian": "гулять",
+                "spanish": [
+                    "pasear"
+                ]
+            },
+            {
+                "russian": "читать",
+                "spanish": [
+                    "leer"
+                ]
+            },
+            {
+                "russian": "думать",
+                "spanish": [
+                    "pensar"
+                ]
+            },
+            {
+                "russian": "завтракать",
+                "spanish": [
+                    "desayunar"
+                ]
+            },
+            {
+                "russian": "обедать",
+                "spanish": [
+                    "comer"
+                ]
+            },
+            {
+                "russian": "ужинать",
+                "spanish": [
+                    "cenar"
+                ]
+            },
+            {
+                "russian": "курить",
+                "spanish": [
+                    "fumar"
+                ]
+            },
+            {
+                "russian": "учить",
+                "spanish": [
+                    "aprender"
+                ]
+            },
+            {
+                "russian": "жить",
+                "spanish": [
+                    "vivir"
+                ]
+            },
+            {
+                "russian": "говорить",
+                "spanish": [
+                    "hablar",
+                    "decir"
+                ]
+            },
+            {
+                "russian": "смотреть",
+                "spanish": [
+                    "mirar"
+                ]
+            },
+            {
+                "russian": "помнить",
+                "spanish": [
+                    "recordar"
+                ]
+            },
+            {
+                "russian": "строить",
+                "spanish": [
+                    "construir"
+                ]
+            },
+            {
+                "russian": "писать",
+                "spanish": [
+                    "escribir"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ropa",
+        "words": [
+            {
+                "russian": "пальто",
+                "spanish": [
+                    "abrigo"
+                ]
+            },
+            {
+                "russian": "сумка",
+                "spanish": [
+                    "bolsa"
+                ]
+            },
+            {
+                "russian": "рюкзак",
+                "spanish": [
+                    "mochila"
+                ]
+            },
+            {
+                "russian": "очки",
+                "spanish": [
+                    "gafas"
+                ]
+            },
+            {
+                "russian": "часы",
+                "spanish": [
+                    "reloj"
+                ]
+            },
+            {
+                "russian": "зонт",
+                "spanish": [
+                    "paraguas"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "escritorio",
+        "words": [
+            {
+                "russian": "ручка",
+                "spanish": [
+                    "bolígrafo"
+                ]
+            },
+            {
+                "russian": "карандаш",
+                "spanish": [
+                    "lápiz"
+                ]
+            },
+            {
+                "russian": "тетрадь",
+                "spanish": [
+                    "cuaderno"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "expresiones",
+        "words": [
+            {
+                "russian": "может быть",
+                "spanish": [
+                    "puede ser"
+                ]
+            },
+            {
+                "russian": "не за что",
+                "spanish": [
+                    "de nada"
+                ]
+            },
+            {
+                "russian": "большое спасибо",
+                "spanish": [
+                    "muchas gracias"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "naturaleza",
+        "words": [
+            {
+                "russian": "лес",
+                "spanish": [
+                    "bosque"
+                ]
+            },
+            {
+                "russian": "рика",
+                "spanish": [
+                    "río"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Categoría",
+        "words": [
+            {
+                "russian": "Ruso",
+                "spanish": [
+                    "Español"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "comida",
+        "words": [
+            {
+                "russian": "яблоко",
+                "spanish": [
+                    "manzana"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "casa",
+        "words": [
+            {
+                "russian": "стол",
+                "spanish": [
+                    "mesa"
+                ]
+            },
+            {
+                "russian": "стул",
+                "spanish": [
+                    "silla"
+                ]
+            },
+            {
+                "russian": "неваляшка",
+                "spanish": [
+                    "muñeca que no se tumba"
+                ]
+            },
+            {
+                "russian": "балкон",
+                "spanish": [
+                    "balcón"
+                ]
+            },
+            {
+                "russian": "диван",
+                "spanish": [
+                    "sofá/diván"
+                ]
+            },
+            {
+                "russian": "телефон",
+                "spanish": [
+                    "teléfono"
+                ]
+            },
+            {
+                "russian": "окно",
+                "spanish": [
+                    "ventana"
+                ]
+            },
+            {
+                "russian": "пол",
+                "spanish": [
+                    "suelo"
+                ]
+            },
+            {
+                "russian": "комната",
+                "spanish": [
+                    "habitación"
+                ]
+            },
+            {
+                "russian": "ключи",
+                "spanish": [
+                    "llaves"
+                ]
+            },
+            {
+                "russian": "ваза",
+                "spanish": [
+                    "jarrón o maceta"
+                ]
+            },
+            {
+                "russian": "полка",
+                "spanish": [
+                    "estantería"
+                ]
+            },
+            {
+                "russian": "шкаф",
+                "spanish": [
+                    "armario"
+                ]
+            },
+            {
+                "russian": "диван",
+                "spanish": [
+                    "sofá"
+                ]
+            },
+            {
+                "russian": "угол",
+                "spanish": [
+                    "esquina"
+                ]
+            },
+            {
+                "russian": "бассейн",
+                "spanish": [
+                    "piscina"
+                ]
+            },
+            {
+                "russian": "сад",
+                "spanish": [
+                    "jardín"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "estudios",
+        "words": [
+            {
+                "russian": "общежитие",
+                "spanish": [
+                    "residencia estudiantil"
+                ]
+            },
+            {
+                "russian": "учебник",
+                "spanish": [
+                    "manual"
+                ]
+            },
+            {
+                "russian": "книга",
+                "spanish": [
+                    "libro"
+                ]
+            },
+            {
+                "russian": "урок",
+                "spanish": [
+                    "clase (actividad)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "animales",
+        "words": [
+            {
+                "russian": "собака",
+                "spanish": [
+                    "perro"
+                ]
+            },
+            {
+                "russian": "кошка",
+                "spanish": [
+                    "gata"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "aula",
+        "words": [
+            {
+                "russian": "доска",
+                "spanish": [
+                    "pizarra blanca"
+                ]
+            },
+            {
+                "russian": "экран",
+                "spanish": [
+                    "pantalla"
+                ]
+            },
+            {
+                "russian": "класс",
+                "spanish": [
+                    "clase (física)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "familia",
+        "words": [
+            {
+                "russian": "ребёнок",
+                "spanish": [
+                    "niño/niña"
+                ]
+            },
+            {
+                "russian": "дети",
+                "spanish": [
+                    "niños/niñas/hijos/hijas"
+                ]
+            },
+            {
+                "russian": "человек",
+                "spanish": [
+                    "persona"
+                ]
+            },
+            {
+                "russian": "люди",
+                "spanish": [
+                    "personas"
+                ]
+            },
+            {
+                "russian": "мужчина",
+                "spanish": [
+                    "hombre"
+                ]
+            },
+            {
+                "russian": "женщина",
+                "spanish": [
+                    "mujer"
+                ]
+            },
+            {
+                "russian": "девочка",
+                "spanish": [
+                    "chica"
+                ]
+            },
+            {
+                "russian": "муж",
+                "spanish": [
+                    "marido"
+                ]
+            },
+            {
+                "russian": "жена",
+                "spanish": [
+                    "esposa"
+                ]
+            },
+            {
+                "russian": "отец",
+                "spanish": [
+                    "padre"
+                ]
+            },
+            {
+                "russian": "мать",
+                "spanish": [
+                    "madre"
+                ]
+            },
+            {
+                "russian": "дедушка",
+                "spanish": [
+                    "abuelo"
+                ]
+            },
+            {
+                "russian": "бабушка",
+                "spanish": [
+                    "abuela"
+                ]
+            },
+            {
+                "russian": "сын",
+                "spanish": [
+                    "hijo"
+                ]
+            },
+            {
+                "russian": "дочь",
+                "spanish": [
+                    "hija"
+                ]
+            },
+            {
+                "russian": "внук",
+                "spanish": [
+                    "nieto"
+                ]
+            },
+            {
+                "russian": "внучка",
+                "spanish": [
+                    "nieta"
+                ]
+            },
+            {
+                "russian": "брат",
+                "spanish": [
+                    "hermano"
+                ]
+            },
+            {
+                "russian": "братья",
+                "spanish": [
+                    "hermanos"
+                ]
+            },
+            {
+                "russian": "сестра",
+                "spanish": [
+                    "hermana"
+                ]
+            },
+            {
+                "russian": "сёстры",
+                "spanish": [
+                    "hermanas"
+                ]
+            },
+            {
+                "russian": "дада",
+                "spanish": [
+                    "tío"
+                ]
+            },
+            {
+                "russian": "тётя",
+                "spanish": [
+                    "tía"
+                ]
+            },
+            {
+                "russian": "друг",
+                "spanish": [
+                    "amigo"
+                ]
+            },
+            {
+                "russian": "подруга",
+                "spanish": [
+                    "amiga"
+                ]
+            },
+            {
+                "russian": "друзья",
+                "spanish": [
+                    "amigos"
+                ]
+            },
+            {
+                "russian": "родители",
+                "spanish": [
+                    "padres"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "viaje",
+        "words": [
+            {
+                "russian": "чемодан",
+                "spanish": [
+                    "maleta"
+                ]
+            },
+            {
+                "russian": "виза",
+                "spanish": [
+                    "visado"
+                ]
+            },
+            {
+                "russian": "багаж",
+                "spanish": [
+                    "equipaje"
+                ]
+            },
+            {
+                "russian": "документы",
+                "spanish": [
+                    "documentos"
+                ]
+            },
+            {
+                "russian": "паспорт",
+                "spanish": [
+                    "pasaporte"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "transporte",
+        "words": [
+            {
+                "russian": "такси",
+                "spanish": [
+                    "taxi"
+                ]
+            },
+            {
+                "russian": "машина",
+                "spanish": [
+                    "coche"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "profesiones",
+        "words": [
+            {
+                "russian": "учитель",
+                "spanish": [
+                    "profesor de colegio"
+                ]
+            },
+            {
+                "russian": "учительница",
+                "spanish": [
+                    "profesora de colegio"
+                ]
+            },
+            {
+                "russian": "преподаватель",
+                "spanish": [
+                    "profesor/a de universidad"
+                ]
+            },
+            {
+                "russian": "брач",
+                "spanish": [
+                    "médico"
+                ]
+            },
+            {
+                "russian": "повар",
+                "spanish": [
+                    "cocinero/a"
+                ]
+            },
+            {
+                "russian": "дизайнер",
+                "spanish": [
+                    "diseñador/a"
+                ]
+            },
+            {
+                "russian": "работе",
+                "spanish": [
+                    "trabajo"
+                ]
+            },
+            {
+                "russian": "фирма",
+                "spanish": [
+                    "empresa privada"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "comidas",
+        "words": [
+            {
+                "russian": "пиво",
+                "spanish": [
+                    "cerveza"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ciudad",
+        "words": [
+            {
+                "russian": "дом",
+                "spanish": [
+                    "casa"
+                ]
+            },
+            {
+                "russian": "фонарь",
+                "spanish": [
+                    "farola"
+                ]
+            },
+            {
+                "russian": "театр",
+                "spanish": [
+                    "teatro"
+                ]
+            },
+            {
+                "russian": "киоск",
+                "spanish": [
+                    "quiosco/tienda"
+                ]
+            },
+            {
+                "russian": "магазин",
+                "spanish": [
+                    "tienda"
+                ]
+            },
+            {
+                "russian": "улица",
+                "spanish": [
+                    "calle"
+                ]
+            },
+            {
+                "russian": "дорога",
+                "spanish": [
+                    "carretera"
+                ]
+            },
+            {
+                "russian": "парк",
+                "spanish": [
+                    "parque"
+                ]
+            },
+            {
+                "russian": "школа",
+                "spanish": [
+                    "escuela"
+                ]
+            },
+            {
+                "russian": "гостиница",
+                "spanish": [
+                    "hotel"
+                ]
+            },
+            {
+                "russian": "вольница",
+                "spanish": [
+                    "hospital"
+                ]
+            },
+            {
+                "russian": "площадь",
+                "spanish": [
+                    "plaza"
+                ]
+            },
+            {
+                "russian": "пляж",
+                "spanish": [
+                    "playa"
+                ]
+            },
+            {
+                "russian": "аптека",
+                "spanish": [
+                    "farmacia"
+                ]
+            },
+            {
+                "russian": "бар",
+                "spanish": [
+                    "bar"
+                ]
+            },
+            {
+                "russian": "стадион",
+                "spanish": [
+                    "estadio"
+                ]
+            },
+            {
+                "russian": "фабрика",
+                "spanish": [
+                    "fábrica"
+                ]
+            },
+            {
+                "russian": "почта",
+                "spanish": [
+                    "fábrica industrial"
+                ]
+            },
+            {
+                "russian": "забод",
+                "spanish": [
+                    "fábrica gigante industrial"
+                ]
+            },
+            {
+                "russian": "деревна",
+                "spanish": [
+                    "pueblo"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "adjetivo",
+        "words": [
+            {
+                "russian": "деревная",
+                "spanish": [
+                    "de madera"
+                ]
+            },
+            {
+                "russian": "квартира",
+                "spanish": [
+                    "apartamento o piso"
+                ]
+            },
+            {
+                "russian": "мальчик",
+                "spanish": [
+                    "pequeño"
+                ]
+            },
+            {
+                "russian": "большое",
+                "spanish": [
+                    "grande"
+                ]
+            },
+            {
+                "russian": "интересный",
+                "spanish": [
+                    "interesante"
+                ]
+            },
+            {
+                "russian": "модный",
+                "spanish": [
+                    "a la moda"
+                ]
+            },
+            {
+                "russian": "новый",
+                "spanish": [
+                    "nuevo"
+                ]
+            },
+            {
+                "russian": "каждый",
+                "spanish": [
+                    "cada"
+                ]
+            },
+            {
+                "russian": "родной",
+                "spanish": [
+                    "materno"
+                ]
+            },
+            {
+                "russian": "старый",
+                "spanish": [
+                    "viejo"
+                ]
+            },
+            {
+                "russian": "новый",
+                "spanish": [
+                    "nuevo"
+                ]
+            },
+            {
+                "russian": "трудный",
+                "spanish": [
+                    "difícil"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "tiempo",
+        "words": [
+            {
+                "russian": "время",
+                "spanish": [
+                    "tiempo"
+                ]
+            },
+            {
+                "russian": "час",
+                "spanish": [
+                    "hora"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "calendario",
+        "words": [
+            {
+                "russian": "неделя",
+                "spanish": [
+                    "semana"
+                ]
+            },
+            {
+                "russian": "понедельник",
+                "spanish": [
+                    "lunes"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "actualidad",
+        "words": [
+            {
+                "russian": "журнал",
+                "spanish": [
+                    "revista"
+                ]
+            },
+            {
+                "russian": "газета",
+                "spanish": [
+                    "periódico"
+                ]
+            },
+            {
+                "russian": "новости",
+                "spanish": [
+                    "noticias"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "adverbio",
+        "words": [
+            {
+                "russian": "просто",
+                "spanish": [
+                    "simplemente"
+                ]
+            },
+            {
+                "russian": "сейчас",
+                "spanish": [
+                    "ahora"
+                ]
+            },
+            {
+                "russian": "ещё",
+                "spanish": [
+                    "todavía / aún"
+                ]
+            },
+            {
+                "russian": "уже",
+                "spanish": [
+                    "ya"
+                ]
+            },
+            {
+                "russian": "сегодня",
+                "spanish": [
+                    "hoy"
+                ]
+            },
+            {
+                "russian": "раньше",
+                "spanish": [
+                    "antes"
+                ]
+            },
+            {
+                "russian": "никогда",
+                "spanish": [
+                    "nunca"
+                ]
+            },
+            {
+                "russian": "завтра",
+                "spanish": [
+                    "mañana"
+                ]
+            },
+            {
+                "russian": "утром",
+                "spanish": [
+                    "por la mañana"
+                ]
+            },
+            {
+                "russian": "вечером",
+                "spanish": [
+                    "por la tarde/noche"
+                ]
+            },
+            {
+                "russian": "всегда",
+                "spanish": [
+                    "siempre"
+                ]
+            },
+            {
+                "russian": "много",
+                "spanish": [
+                    "mucho"
+                ]
+            },
+            {
+                "russian": "мало",
+                "spanish": [
+                    "poco"
+                ]
+            },
+            {
+                "russian": "днём",
+                "spanish": [
+                    "por el día"
+                ]
+            },
+            {
+                "russian": "иногда",
+                "spanish": [
+                    "a veces"
+                ]
+            },
+            {
+                "russian": "обычно",
+                "spanish": [
+                    "normalmente"
+                ]
+            },
+            {
+                "russian": "наверное",
+                "spanish": [
+                    "seguramente"
+                ]
+            },
+            {
+                "russian": "весь день",
+                "spanish": [
+                    "todo el día"
+                ]
+            },
+            {
+                "russian": "ничего",
+                "spanish": [
+                    "nada"
+                ]
+            },
+            {
+                "russian": "всё",
+                "spanish": [
+                    "todo"
+                ]
+            },
+            {
+                "russian": "неплохо",
+                "spanish": [
+                    "no mal"
+                ]
+            },
+            {
+                "russian": "плохо",
+                "spanish": [
+                    "mal"
+                ]
+            },
+            {
+                "russian": "отлично",
+                "spanish": [
+                    "excelente"
+                ]
+            },
+            {
+                "russian": "прекрасно",
+                "spanish": [
+                    "estupendo"
+                ]
+            },
+            {
+                "russian": "нормально",
+                "spanish": [
+                    "bastante bien"
+                ]
+            },
+            {
+                "russian": "хорошо",
+                "spanish": [
+                    "bien"
+                ]
+            },
+            {
+                "russian": "интересно",
+                "spanish": [
+                    "interesante"
+                ]
+            },
+            {
+                "russian": "никто",
+                "spanish": [
+                    "nadie"
+                ]
+            },
+            {
+                "russian": "полько",
+                "spanish": [
+                    "solamente"
+                ]
+            },
+            {
+                "russian": "каждый день",
+                "spanish": [
+                    "cada día"
+                ]
+            },
+            {
+                "russian": "всё время",
+                "spanish": [
+                    "todo el tiempo"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "",
+        "words": [
+            {
+                "russian": "вещи",
+                "spanish": [
+                    "cosas"
+                ]
+            },
+            {
+                "russian": "песня",
+                "spanish": [
+                    "canción"
+                ]
+            },
+            {
+                "russian": "страна",
+                "spanish": [
+                    "país"
+                ]
+            },
+            {
+                "russian": "любовь",
+                "spanish": [
+                    "amor"
+                ]
+            },
+            {
+                "russian": "шахматы",
+                "spanish": [
+                    "ajedrez"
+                ]
+            },
+            {
+                "russian": "ночь",
+                "spanish": [
+                    "noche"
+                ]
+            },
+            {
+                "russian": "все",
+                "spanish": [
+                    "todo el mundo (3ª pl)"
+                ]
+            },
+            {
+                "russian": "мы все",
+                "spanish": [
+                    "todos nosotros (1ª pl)"
+                ]
+            },
+            {
+                "russian": "молько",
+                "spanish": [
+                    ""
+                ]
+            },
+            {
+                "russian": "скрипка",
+                "spanish": [
+                    "violín"
+                ]
+            },
+            {
+                "russian": "земля",
+                "spanish": [
+                    "tierra"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "genérico",
+        "words": [
+            {
+                "russian": "место",
+                "spanish": [
+                    "sitio"
+                ]
+            }
+        ]
+    }
+]
